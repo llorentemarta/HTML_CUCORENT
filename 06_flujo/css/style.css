@@ -1,0 +1,20 @@
+/*Posicionamiento flotar*/
+.ancho40 {
+    width: 40%;
+    
+}
+
+.flotar {
+    float: left;
+}
+
+.pie {
+    position: fixed;
+    bottom: 5px;
+    background-color: papayawhip;
+}
+
+.final {
+    height: 10rem;
+    overflow: auto;
+}

@@ -1,0 +1,22 @@
+/*Posicionamiento normal*/
+.ancho40 {
+    width: 40%
+}
+
+/*Posicionamiento absoluto*/
+.arriba {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+
+/*Posicionamiento relativo*/
+.relativo {
+    position: relative;
+    top: 0px;
+    left: 50px;
+}
+
+.base {
+    
+}
