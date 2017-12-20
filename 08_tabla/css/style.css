@@ -1,0 +1,20 @@
+table {
+    margin: 1rem 4rem;
+    border: 1px;
+}
+.colores [scope= "col"]{
+    color: rgb(127, 129, 255);
+    }
+
+.colores [scope= "row"]{
+    color: blueviolet;
+}
+
+.colores [scope]{
+    text-align: center;
+    font-style: italic
+}
+
+.colores :not([scope]){
+    text-align: center;
+}

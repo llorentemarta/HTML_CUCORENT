@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tabla</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th scope="colgroup rowgroup">%</th>
+            <th scope="col">Hombres</th>
+            <th scope="col">Mujeres</th>
+        </tr>
+        <tr>
+            <th scope="row">Diseño</th>
+            <td>40</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <th scope="row">Informática</th>
+            <td>70</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <th scope="row">ADE</th>                
+            <td>50</td>
+            <td>50</td>
+        </tr>
+
+    </table>
+    <table class= "colores">
+            <tr>
+                    <th></th>
+                    <th></th>
+                    <td scope="colgroup" colspan="2">Género</td>
+                </tr>
+            <tr>
+                <th scope="colgroup rowgroup" colspan= "2">%</th>
+                <th scope="col">Hombres</th>
+                <th scope="col">Mujeres</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Ciencias</td>
+                <th scope="row">Diseño</th>
+                <td>40</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <th scope="row">Informática</th>
+                <td>70</td>
+                <td>30</td>
+             </tr>
+            <tr>
+                <td rowspan="2">Letras</td>
+                <th scope="row">ADE</th>            
+                <td>50</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <th scope="row">Derecho</th>              
+                <td>50</td>
+                <td>50</td>
+                </tr>
+    
+        </table>
+</body>
+</html>
