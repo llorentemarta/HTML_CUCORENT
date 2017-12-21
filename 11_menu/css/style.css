@@ -1,0 +1,43 @@
+/*Esto el el CSS del Menú*/
+
+/*Reseteamos previamente*/
+nav ul, nav li, nav a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size:100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/*Damos características*/
+nav ul {
+    list-style: none;
+    background-color: rgba(127, 255, 212, 0.685);
+}
+
+nav>ul>li {
+    width: --webkit-calc(100%/6);
+    display: inline-block; /*Para creear el menú en horizontal*/
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    padding: 1rem;
+}
+
+nav>ul>li>ul { /*Esto es para referirnos a los submenus, poruque son descendientes*/
+    display: none;
+}
+
+nav>ul>li:hover>a {
+    color: rgb(140, 26, 155);
+}
+
+nav>ul>li:hover ul {
+    display: block;
+    position: absolute; /*Para que se despliege no en el mismo sitio*/
+    top: 2rem;
+}
